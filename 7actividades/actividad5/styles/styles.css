@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex: 1;
+}
+nav {
+    flex: 1;
+    background-color: #ccc;
+}
+article {
+    flex: 2;
+    background-color: #aaa;
+}
+aside {
+    flex: 1;
+    background-color: #ccc;
+}
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+}

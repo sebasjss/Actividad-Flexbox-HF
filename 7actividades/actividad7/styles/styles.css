@@ -1,0 +1,67 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1abc9c;
+    padding: 10px 35px;
+}
+
+.enlaces {
+    display: flex;
+    gap: 25px;
+}
+
+.idiomas {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.c {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    flex: 3;
+    background-color: #eee;
+    padding: 10px;
+}
+
+main {
+    flex: 7;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}

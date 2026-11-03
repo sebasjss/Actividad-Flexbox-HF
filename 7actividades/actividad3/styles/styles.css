@@ -1,0 +1,26 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f2f0;
+}
+
+div {
+    width: 400px;
+    padding: 20px;
+    background-color: #eae6e3;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #444;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}

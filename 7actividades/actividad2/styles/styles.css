@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 1px;
+}
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDDDDD;
+    padding: 1px 10px 1px 10px;
+}
+nav p {
+    margin: 20px;
+}
+nav a {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}

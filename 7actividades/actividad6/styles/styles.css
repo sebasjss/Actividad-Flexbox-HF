@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #93d9e9;
+}
+.precios {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-height: 480px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+h3 {
+    background-color: salmon;
+    padding: 15px 5px;
+    margin: 0;
+}
+p {
+    font-size: 12px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+button {
+    margin: auto 30px 10px;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
